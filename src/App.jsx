@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import StateDemo from './compoment/1_setState/StateDemo'
+import StateDemo from './compoment/7_Render_Props'
 export default class App extends Component {
 
   render() {
     return (
-      <div>
+      <div >
         <StateDemo />
       </div>
     )
