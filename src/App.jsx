@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-import StateDemo from './compoment/7_Render_Props'
+import { BrowserRouter } from 'react-router-dom'
+import RDemo from './router_demo/Demo'
 export default class App extends Component {
 
   render() {
     return (
       <div >
-        <StateDemo />
+        <BrowserRouter>
+          <RDemo />
+        </BrowserRouter>
       </div>
     )
   }
